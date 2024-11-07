@@ -256,7 +256,7 @@ Jawaban: ${response}`).join('\n\n')}`;
         </span>
       </div>
 
-      <div className="bg-white rounded-xl shadow-sm p-6">
+      <div className="bg-white rounded-xl shadow-sm ">
         <div className="space-y-4">
           <div className="flex items-center space-x-2">
             <Brain className="w-6 h-6 text-indigo-600" />
