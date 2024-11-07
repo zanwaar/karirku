@@ -9,7 +9,7 @@ export default function Header() {
           <div className="flex items-center space-x-3">
             <Compass className="w-8 h-8 text-indigo-600" />
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">Kampus ABC</h1>
+              <h1 className="text-2xl font-bold text-gray-900">Kampus ABC Batuke Dev</h1>
               <p className="text-sm text-gray-500">Mudahkan Pilihan Jurusan dengan Temukan Masa Depanmu</p>
             </div>
           </div>
