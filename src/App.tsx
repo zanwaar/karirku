@@ -28,7 +28,7 @@ function App() {
             <span className="block text-sm font-medium">Analisis Minat</span>
           </button>
           
-          <button
+          {/* <button
             onClick={() => setActiveTab('insights')}
             className={`p-4 rounded-xl transition-all ${
               activeTab === 'insights'
@@ -38,9 +38,9 @@ function App() {
           >
             <Briefcase className="w-6 h-6 mx-auto mb-2" />
             <span className="block text-sm font-medium">Wawasan Karir</span>
-          </button>
+          </button> */}
           
-          <button
+          {/* <button
             onClick={() => setActiveTab('trends')}
             className={`p-4 rounded-xl transition-all ${
               activeTab === 'trends'
@@ -50,9 +50,9 @@ function App() {
           >
             <LineChart className="w-6 h-6 mx-auto mb-2" />
             <span className="block text-sm font-medium">Tren Industri</span>
-          </button>
+          </button> */}
           
-          <button
+          {/* <button
             onClick={() => setActiveTab('courses')}
             className={`p-4 rounded-xl transition-all ${
               activeTab === 'courses'
@@ -62,7 +62,7 @@ function App() {
           >
             <BookOpen className="w-6 h-6 mx-auto mb-2" />
             <span className="block text-sm font-medium">Mata Kuliah</span>
-          </button>
+          </button> */}
 
           <button
             onClick={() => setActiveTab('assistant')}
@@ -79,9 +79,9 @@ function App() {
 
         <div className="bg-white rounded-2xl shadow-xl p-6">
           {activeTab === 'test' && <CareerTest />}
-          {activeTab === 'insights' && <CareerInsights />}
+          {/* {activeTab === 'insights' && <CareerInsights />}
           {activeTab === 'trends' && <IndustryTrends />}
-          {activeTab === 'courses' && <CourseOverview />}
+          {activeTab === 'courses' && <CourseOverview />} */}
           {activeTab === 'assistant' && <AIAssistant />}
         </div>
       </main>
