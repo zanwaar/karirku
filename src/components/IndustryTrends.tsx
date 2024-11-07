@@ -31,13 +31,14 @@ const trends = [
 export default function IndustryTrends() {
   return (
     <div className="space-y-8 px-4">
-      <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-bold text-gray-900">Tren Industri</h2>
-        <div className="flex items-center space-x-2 text-sm text-gray-500">
-          <AlertCircle className="w-4 h-4" />
-          <span>Data diperbarui: Maret 2024</span>
-        </div>
-      </div>
+<div className="flex flex-col sm:flex-row items-start justify-between mb-4">
+  <h2 className="text-2xl font-bold text-gray-900 mb-2 sm:mb-0">Tren Industri</h2>
+  <div className="flex items-center space-x-2 text-sm text-gray-500">
+    <AlertCircle className="w-4 h-4" />
+    <span>Data diperbarui: Maret 2024</span>
+  </div>
+</div>
+
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {trends.map((trend, index) => (
