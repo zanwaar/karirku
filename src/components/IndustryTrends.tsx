@@ -30,7 +30,7 @@ const trends = [
 
 export default function IndustryTrends() {
   return (
-    <div className="space-y-8 px-4">
+    <div className="space-y-8 ">
 <div className="flex flex-col sm:flex-row items-start justify-between mb-4">
   <h2 className="text-2xl font-bold text-gray-900 mb-2 sm:mb-0">Tren Industri</h2>
   <div className="flex items-center space-x-2 text-sm text-gray-500">
@@ -40,11 +40,11 @@ export default function IndustryTrends() {
 </div>
 
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
         {trends.map((trend, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow"
+            className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow"
           >
            <div className="flex flex-col sm:flex-row items-start justify-between mb-4">
   <div className="flex flex-col sm:flex-row items-start">
