@@ -249,8 +249,8 @@ Jawaban: ${response}`).join('\n\n')}`;
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-bold text-gray-900">Tes Minat Karir AI</h2>
+      <div className="flex items-center justify-between ">
+        <h2 className="text-xl md:text-2xl font-bold text-gray-900">Tes Minat Karir AI</h2>
         <span className="text-sm text-gray-500">
           Pertanyaan {currentQuestion + 1} dari {initialQuestions.length}
         </span>
